@@ -1,0 +1,31 @@
+
+.post-create {
+    padding: 1rem 1rem;
+    background-color: #cfe2f0;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.post-create form {
+  display: flex;
+  flex-direction: column;
+}
+
+.post-create input, .post-create textarea {
+  margin-bottom: 5px;
+  padding: 5px;
+  font-size: 1em;
+}
+
+.post-create button {
+  padding: 10px;
+  font-size: 1em;
+  background-color: #4b75a1;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.post-create button:hover {
+  background-color: #2b4867;
+}

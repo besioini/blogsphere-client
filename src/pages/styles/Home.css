@@ -1,0 +1,27 @@
+.home {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+/* .sidebar {
+  flex: 0 0 35%;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+} */
+
+.main-content {
+  flex: 0 0 60%;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #fff;
+  margin: 0 10px;
+}
